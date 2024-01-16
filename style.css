@@ -44,10 +44,11 @@ ul{
 .first-content{
     display: flex;
     justify-content: space-between;
-    background: #1f2937
+    background: #1f2937;
+    flex-wrap: wrap;
 }
 
-.left_side_content{
+.first_content_left{
     color: #f9faf8;
 }
 
@@ -55,7 +56,7 @@ ul{
 .text_1{
     width: 360px;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 /*left second text*/
@@ -63,6 +64,17 @@ ul{
     width: 400px;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.first_content_left button{
+    background-color: #3882f6;
+    padding: 5px 30px;
+    border-radius: 10px;
+    color: #e5e7eb;
+    cursor: pointer;
+    border: none;
+    margin: 10px 0;
+    font-weight: bold;
 }
 
 .image-holder{
@@ -78,7 +90,7 @@ ul{
 .second_content_header{
     text-align: center;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 800;
     padding-bottom: 60px;
     margin-top: -40px;
 }
@@ -87,6 +99,7 @@ ul{
     display: flex;
     gap: 50px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .big-box{
@@ -101,32 +114,81 @@ ul{
     border:4px solid #3882f6;
     display: flex;
     border-radius: 25px;
+    margin-bottom: 10px;
 }
 
 .box-text{
     text-align: center;
     font-size: 18px;
     width: 160px;
+    color: #80868d;
 }
-
-
-
-
 /*second content end*/
 
+/*third content start*/
+.third-content{
+    display: flex;
+    background: #e5e7eb;
+    justify-content: center;
+}
 
+.third_content_text{
+    width: 820px;
+}
 
+p{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #33373d;
+}
 
+.third_content_bottom_text{
+    text-align: right;
+    font-weight: bold;
+}
+/*third content end*/
 
+/*fourth content start*/
+.small_box{
+    display: flex;
+    background: #3882f6;
+    color: #f9faf8;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 8px;
+}
 
+.fourth_content_left_top{
+    font-weight: bold;
+    font-size: large;
+}
 
+.small_box button{
+    padding: 5px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    margin: 10px 0;
+    color: #e5e7eb;
+    font-weight: bold;
+}
 
+/*fourth content end*/
 
+/*footer start*/
+.footer{
+    background: #1f2937;
+}
 
+.footer div{
+    padding: 30px;
+    text-align: center;
+    color: #e5e7eb;
+}
+/*footer end*/
 
-
-
-/*draft start*/
-
-
-/*draft end*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
